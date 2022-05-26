@@ -1,0 +1,46 @@
+body{
+
+
+position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #FFFFFF;
+mix-blend-mode: normal;
+}
+.Barranav .contacto {
+
+
+position: relative;
+width: 56px;
+height: 27px;
+left: 126px;
+top: 11px;
+
+font-family: 'Eczar';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+/*foto*/
+.foto{
+    /* Ellipse 1 */
+
+
+box-sizing: border-box;
+
+position: absolute;
+width: 261px;
+height: 225px;
+left: 630px;
+top: 492px;
+
+background: url(mesa con masetas.jpg);
+border: 5px solid #FFF8F8;
+box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
