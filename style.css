@@ -1,6 +1,29 @@
 body {
-    background-color:black;
+    background-color:rgb(175, 236, 170);
 }
 .titulovideo{
     color: tomato;
+    
+}
+.navegador{
+    background-color:tomato;
+    height: 40px;
+    position:static;
+  align-content: flex-start;
+}
+.navegador ul{
+    display: flex;
+    padding: 10px;
+
+}
+.navegador ul li {
+display: flex;
+    text-align: center;
+justify-content: center;
+}
+.navegador ul li a {
+    position:static;
+    color: white;
+    text-decoration: none;
+
 }
