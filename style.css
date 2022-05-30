@@ -1,15 +1,16 @@
 body {
-    background-color:rgb(175, 236, 170);
+    background-color:darkslategrey;
 }
 .titulovideo{
     color: tomato;
     
 }
+/* ************* navegador *************  */
 .navegador{
     background-color:tomato;
     height: 40px;
     position:static;
-  align-content: flex-start;
+    align-content: flex-start;
 }
 .navegador ul{
     display: flex;
@@ -17,13 +18,66 @@ body {
 
 }
 .navegador ul li {
-display: flex;
-    text-align: center;
-justify-content: center;
+    
+        display: flex;
+        margin: auto;
+        text-align: center;
+        justify-content: center;
 }
 .navegador ul li a {
-    position:static;
-    color: white;
-    text-decoration: none;
+            position:static;
+            
+            text-decoration: none;
 
+/* ************* botones fotos*************  */
+}
+boton_calle{
+    
+    display: flex;
+    position: relative;
+
+}
+
+/* ************* fotos menu *************  */
+.foto1{
+    width: 20%;
+}
+.foto_vestir{
+    width: 45%;
+}
+.mapa{
+    display:block;
+    position:static;
+    width:35%;
+    height: 35%;
+}
+/* *************************************** navegador fotos ***************************************  */
+.navegador_fotos{
+opacity: 95%;
+
+    height: 0px;
+    position:static;
+    align-content: flex-start;
+    
+}
+.navegador_fotos ul{
+    display:flex;
+    
+}
+.navegador_fotos ul li {
+        display:flex;
+       margin: 8%;
+        text-align: left;
+        justify-content: center;
+        
+}
+.navegador_fotos ul li a {
+    
+    
+            position:static;
+            color: black;
+            text-decoration: none;
+}
+.imagen_fondo{
+    display: block;
 }
