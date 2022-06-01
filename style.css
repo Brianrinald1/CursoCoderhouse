@@ -1,83 +1,129 @@
 body {
-    background-color:darkslategrey;
+    background-color: darkslategrey;
+    margin: 0;
+    box-sizing: border-box;
 }
-.titulovideo{
-    color: tomato;
+
+/* ********************************************** navegador *************************************************  */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
     
 }
-/* ************* navegador *************  */
-.navegador{
-    background-color:tomato;
-    height: 40px;
-    position:static;
-    align-content: flex-start;
+
+.navbar li {
+    float: right;
 }
-.navegador ul{
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: rgb(17, 17, 17);
+
+}
+.logo{
     display: flex;
-    padding: 10px;
-
-}
-.navegador ul li {
+    width: 8%;
     
-        display: flex;
-        margin: auto;
-        text-align: center;
-        justify-content: center;
-}
-.navegador ul li a {
-            position:static;
-            
-            text-decoration: none;
-
-/* ************* botones fotos*************  */
-}
-boton_calle{
-    
-    display: flex;
-    position: relative;
-
 }
 
-/* ************* fotos menu *************  */
-.foto1{
+/* ************************************************** fotos menu *********************************************************  */
+.foto1 {
     width: 20%;
 }
-.foto_vestir{
+
+.foto_vestir {
     width: 45%;
 }
-.mapa{
-    display:block;
-    position:static;
-    width:35%;
-    height: 35%;
-}
-/* *************************************** navegador fotos ***************************************  */
-.navegador_fotos{
-opacity: 95%;
 
-    height: 0px;
-    position:static;
-    align-content: flex-start;
-    
-}
-.navegador_fotos ul{
-    display:flex;
-    
-}
-.navegador_fotos ul li {
-        display:flex;
-       margin: 8%;
-        text-align: left;
-        justify-content: center;
-        
-}
-.navegador_fotos ul li a {
-    
-    
-            position:static;
-            color: black;
-            text-decoration: none;
-}
-.imagen_fondo{
+.mapa h3 {
     display: block;
+    position: relative;
+    left: 130%;
+    block-size: 15%;
+}
+
+/* ************************************************** navegador fotos ********************************************************************  */
+
+/* *************************************** contacto ***************************************  */
+.Formulario {
+    width: 460px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(244, 250, 251);
+    padding-left: 30px;
+    display: block;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.texto_mensaje {
+    position: relative;
+    left: 29px;
+}
+
+.colocar_telefono {
+    position: relative;
+}
+
+.colocar_email {
+    position: relative;
+    left: 111px;
+}
+
+/* *************************************** Vestir ***************************************  */
+
+.foto_remera_blanca{
+    position: relative;
+    width: 250px;
+
+
+}
+.foto_remera_negra{
+    padding: 2px;
+    position: relative;
+    left: 0%;
+    width: 250px;
+
+}
+
+/* *************************************** FOOTER ********************************************** */
+.footer{
+    display:flex;
+    box-sizing:;
+    background-color: black; 
+    padding-top:4%;
+
+}
+.footer p {
+        padding-left: 12%;
+        color:#333;
+
+}
+.footer .copyright {
+    padding-left:12%;
+    color: blanchedalmond;
+    display: flex;
+    text-align: center;
+}
+.icono_link{
+    padding-left: 1px;
+}
+.parrafo_redes{
+    color: white;
+display:flex;
+margin-top: 1px;
+
 }
