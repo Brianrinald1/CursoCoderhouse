@@ -1,6 +1,7 @@
 body {
     background-color: #E4E6F2;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -37,26 +38,31 @@ body {
     
 }
 
-/* ************************************************** fotos menu *********************************************************  */
+/* ************************************************** fotos menu principal*********************************************************  */
+.foto_primera{
+width: 100%; 
+height: 500px; 
+object-fit: cover;
+object-position: 20% 10%; 
+filter: blur(0.5px);
 
-
-
-.foto1 {
-    width: 20%;
 }
 
-.foto_vestir {
-    width: 45%;
-}
-
-.mapa h3 {
-    display: block;
-    position: relative;
-    left: 130%;
-    block-size: 15%;
+.mapa  {
+    width: 100%;
+    height: 50mm;
+    object-position: 10% 82%;
+    
 }
 
 /* ************************************************** navegador fotos ********************************************************************  */
+
+
+
+
+
+
+
 
 /* *************************************** contacto ***************************************  */
 .Formulario {
@@ -90,7 +96,8 @@ body {
 /* *************************************** Vestir y calle ***************************************  */
 form {
     display: grid;
-   text-align: center;
+text-align: center;
+
 
 }
 
