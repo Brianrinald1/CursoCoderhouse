@@ -6,67 +6,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <nav class="navegador">
-        <ul>
-            <li><a href="vestir.html" class="vestir">vestir</a></li>
-            <li><a href="calle.html" class="calle">calle</a></li>
-            <li><a href="contacto.html" class="contacto">Contacto </a></a></li>
-            <li><a href="deportivo.html">Deportivo</a></li>
-        </ul>
-    </nav>
+    <nav class="navbar">
+		<ul>
+            <li><a href="desafio1.html">Inicio</a></li>
+			<li><a href="contacto.html">Contactanos</a></li>
+			<li><a href="vestir.html" class="vestir">vestir</a></li>
+			<li><a href="calle.html" class="calle">calle</a></li>
+			<li><a href="deportivo.html">Deportivo</a></li>
+            <a href="desafio1.html"> <img  class="logo" src="img/camisetalogo.png" alt="logo"></a> 
+		</ul>
+	</nav>
 
 
-    
-    <form action=""></form>
+
+<form action="">
     <div class="Formulario">
         <h1>Contactate con nosotros</h1>
-        <h4>deja tu mensaje y nos cantactaremos cuanto antes </h4>
+        <h4>Deja tu mensaje y nos cantactaremos cuanto antes !</h4>
+        
+    <br>
 
-        <p>
-            <label for="Nombre" class="poner_nombre">Nombre
-                <span class="Tiene que colocar su nombre">*</span>
-            </label>
-            <input type="text" name="intruduce tu nombre" id="nombre" required="obligatorio"
-                placeholder="Escribe tu nombre">
-
+    
+        <p>Nombre
+            <input type="text" name="nombre"  placeholder="Escribe tu nombre" required="">
         </p>
-        <p>
-            <label for="email" class="colocar_imail"> email
-                <span class="Obligatorio">*</span>
-            </label>
-            <input type="email" name="intruducir_imail" id="email" required="Obligatorio"
-                placeholder="Escribe tu email">
-        </p>
-        <p>
-            <label for="telefono " class="colocar_telefono">Telefono *</label>
-            <input type="tel" name="colocar_telefono" id="telefono" placeholder="Escribe tu telefono">
-
-        </p>
-        <p>
-            <label for="asunto" class="colocar_asunto"> asunto
-                <span class="Obligatorio">*</span>
-            </label>
-            <input type="text" name="intruducir_asunto" id="asunto" required="obligatorio"
-                placeholder="Escribe un asunto">
-        </p>
-        <p>
-            <textarea name="introducior_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio"
-                placeholder="deja tu consulta "></textarea>
-
-        </p>
-        <button type="submit" name="enviar_formulario" id="enviar">
-            <p>Enviar</p>
-        </button>
-        <p class="aviso">
-            <span class="obligatorio">*</span>Todos los campos son obligatorio..
+        
+        <p>Email* 
+        
+            <input type="email" name="email"   placeholder="Escribe tu email" required="">
         </p>
 
-    </div>
+        <p>Telefono
+            <input type="number" name="telefono"  placeholder="Escribe tu telefono" required="" >
+
+        </p>
+        <p>Asunto<input type="text" name="asunto" placeholder="Escribe un asunto"></p>
+        <p><textarea name="introducior_mensaje"  placeholder="deja tu consulta "></textarea></p>
+        
+        
+        <input type="submit" value="Enviar">
+        <p>
+            <span >*</span>Todos los campos son obligatorio..
+        </p>
+
+        
+</div>
+    
+
 </form>
-
+<footer>
+    <div class="footer">
+        <p>Diseños de paginas personalizados por Brian Rinaldi</p><br>
+        <p class="copyright">©Todos los derechos reservados 2022</p>
+        <p class="parrafo_redes">redes solciales</p> 
+        <a class="icono_inst" href="https://www.instagram.com/?hl=en"><img src="../desafio1/img/iconoinst.png" height="18px"</a>
+        <a class="icono_facebook" href="https://www.facebook.com/"><img src="../desafio1/img/iconofacebok.png" height="18px"</a>
+        <a class="icono_link" href="https://www.linkedin.com/"><img src="../desafio1/img/iconolink.png" height="18px"</a>
+    </div>
+    </footer>
 
 </body>
 
